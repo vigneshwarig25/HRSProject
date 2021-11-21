@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47816" started-at="2021-11-21T08:42:47Z" finished-at="2021-11-21T08:43:34Z">
+    <groups>
+    </groups>
+    <test name="TestNG.xml" duration-ms="3" started-at="2021-11-21T08:42:47Z" finished-at="2021-11-21T08:42:47Z">
+    </test> <!-- TestNG.xml -->
+    <test name="verifyloginButtonTest" duration-ms="45691" started-at="2021-11-21T08:42:47Z" finished-at="2021-11-21T08:43:32Z">
+      <class name="HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="setUp" is-config="true" duration-ms="10314" started-at="2021-11-21T03:42:47Z" finished-at="2021-11-21T03:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="loginPageTitleTest" duration-ms="11" started-at="2021-11-21T03:42:57Z" finished-at="2021-11-21T03:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="730" started-at="2021-11-21T03:42:57Z" finished-at="2021-11-21T03:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="setUp" is-config="true" duration-ms="9299" started-at="2021-11-21T03:42:58Z" finished-at="2021-11-21T03:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyloginButtonTest(java.lang.String, java.lang.String)[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="verifyloginButtonTest" duration-ms="1226" started-at="2021-11-21T03:43:07Z" finished-at="2021-11-21T03:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="749" started-at="2021-11-21T03:43:08Z" finished-at="2021-11-21T03:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="setUp" is-config="true" duration-ms="9172" started-at="2021-11-21T03:43:09Z" finished-at="2021-11-21T03:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmptyCredentials()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="verifyEmptyCredentials" duration-ms="18" started-at="2021-11-21T03:43:18Z" finished-at="2021-11-21T03:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="730" started-at="2021-11-21T03:43:18Z" finished-at="2021-11-21T03:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="setUp" is-config="true" duration-ms="9356" started-at="2021-11-21T03:43:19Z" finished-at="2021-11-21T03:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgetPwdButton()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="verifyForgetPwdButton" duration-ms="3244" started-at="2021-11-21T03:43:28Z" finished-at="2021-11-21T03:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPwdButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="826" started-at="2021-11-21T03:43:32Z" finished-at="2021-11-21T03:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest -->
+    </test> <!-- verifyloginButtonTest -->
+    <test name="verifyRESTAPI" duration-ms="2099" started-at="2021-11-21T08:43:32Z" finished-at="2021-11-21T08:43:34Z">
+      <class name="HealthRecoverySolutionsTestCases.HealthRecoverySolutions_API">
+        <test-method status="PASS" signature="getapiTest()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutions_API@64bf3bbf]" name="getapiTest" duration-ms="1051" started-at="2021-11-21T03:43:32Z" finished-at="2021-11-21T03:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getapiTest -->
+        <test-method status="PASS" signature="putapiTest()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutions_API@64bf3bbf]" name="putapiTest" duration-ms="160" started-at="2021-11-21T03:43:33Z" finished-at="2021-11-21T03:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putapiTest -->
+        <test-method status="PASS" signature="postapiTest()[pri:0, instance:HealthRecoverySolutionsTestCases.HealthRecoverySolutions_API@64bf3bbf]" name="postapiTest" duration-ms="884" started-at="2021-11-21T03:43:34Z" finished-at="2021-11-21T03:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postapiTest -->
+      </class> <!-- HealthRecoverySolutionsTestCases.HealthRecoverySolutions_API -->
+    </test> <!-- verifyRESTAPI -->
+  </suite> <!-- Suite -->
+</testng-results>

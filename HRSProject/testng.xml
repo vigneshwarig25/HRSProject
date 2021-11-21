@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestNG.xml">
+  <test name="verifyloginButtonTest">
+	<parameter name="username" value="testUsr"/>
+	<parameter name="password" value="testPwd"/>
+	    <classes>
+      <class name="HealthRecoverySolutionsTestCases.HealthRecoverySolutionsLoginTest"/> 
+  
+    </classes>        
+   </test>
+    <test name="verifyRESTAPI">
+	    <classes> 
+      <class name="HealthRecoverySolutionsTestCases.HealthRecoverySolutions_API"/>    
+    </classes>        
+    </test>
+  </test> <!-- TestNG.xml -->
+</suite> <!-- Suite -->
